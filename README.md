@@ -15,6 +15,7 @@ Key Findings of this analysis are as follows:
 12. The percentage of smokers who have heart disease is 7.85340 and non-smokers who have heart disease is 9.64153 which is interestingly higher than smokers percentage.
   
     Conclusion
+  
     Based on the dataset,it is clear that health is related to health activity of individuals and is an important part of everyone's life. Though the result show that more non-smokers
     are prone to heart disease than smokers, this could be because, data might represent more non-smokers than smokers but it is important to understand that good amount of sleep,
     daily exercise will definately improve the health conditions of individuals because smoking is not good for health, if the data shows that smoking does not lead to heart disease,
