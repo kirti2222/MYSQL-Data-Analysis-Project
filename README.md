@@ -13,6 +13,7 @@ Key Findings of this analysis are as follows:
 10. The average BMI for individuals based on thier daily steps activity levels such as High, Low and Medium are 26.69,26.78 and 26.78.
 11. The average heart rate of individuals who have heart disease is 83.68 and those individuals who do not have heart disease is 84.82.
 12. The percentage of smokers who have heart disease is 7.85340 and non-smokers who have heart disease is 9.64153 which is interestingly higher than smokers percentage.
+  
     Conclusion
     Based on the dataset,it is clear that health is related to health activity of individuals and is an important part of everyone's life. Though the result show that more non-smokers
     are prone to heart disease than smokers, this could be because, data might represent more non-smokers than smokers but it is important to understand that good amount of sleep,
