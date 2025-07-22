@@ -19,5 +19,5 @@ Key Findings of this analysis are as follows:
     Based on the dataset,it is clear that health is related to health activity of individuals and is an important part of everyone's life. Though the result show that more non-smokers
     are prone to heart disease than smokers, this could be because, data might represent more non-smokers than smokers but it is important to understand that good amount of sleep,
     daily exercise will definately improve the health conditions of individuals because smoking is not good for health, if the data shows that smoking does not lead to heart disease,
-    it cannot be generalized as smoking can lead to other health issues and the disadvantage of this dataset is it is very small in size as it has only 1001 individuals, so this
-    information cannnot be accurate and generalized.
+    it cannot be generalized as smoking can lead to other health issues. As the size of the dataset is very small around 1001 entries, any information related to smokers and
+    non-smokers health problems cannot be generalized.
