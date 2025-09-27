@@ -29,7 +29,7 @@ https://github.com/kirti2222/MYSQL-Data-Analysis-Project/blob/main/healthcare_da
 •	Filtering and Sorting: Using the WHERE clause to filter data (e.g., WHERE BMI > 25 ) and the order by and limit clauses to identify top records.
 ### 3. Result Extraction and Reporting 
 •	Result Capture: Recording the output from the MySQL environment (the "Result Grid") for each query.
-•	.Documentation: Presenting the original analytical question, the MySQL query used, and the resulting data grid.
+•	Documentation: Presenting the original analytical question, the MySQL query used, and the resulting data grid.
 •	Final Project Compilation: Organizing all the documented analysis into a structured project document (the PDF file) for presentation.
 ## Project Insight
 1. The average age of individuals in the dataset is 49.
