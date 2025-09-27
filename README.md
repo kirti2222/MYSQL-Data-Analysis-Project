@@ -2,7 +2,7 @@
 ## Project Objective
 To analyze the health and activity metrics to derive key insights and answer specific data-driven questions related to the health and lifestyle of individuals
 ## Dataset Used
-
+https://github.com/kirti2222/MYSQL-Data-Analysis-Project/blob/main/healthcare_dataset.csv
 ## Project Questions
 1. What is the average age of all the individuals in the dataset?
 2. How many individuals are male and how many are females?
@@ -15,4 +15,40 @@ To analyze the health and activity metrics to derive key insights and answer spe
 9. Calculate the average heart rate of individuals who have heart disease and those who do not have.
 10. Determine the percentage of smokers who have heart disease and non-smokers who have heart disease.
 11. Identify the top 10 individuals by ID,Age,Gender with the highest daily steps who also have a BMI greater than 25.
+## Project Process
+### 1. Data Understanding and Setup 
+•	Data Source Identification: The project utilizes data called health_activity_data within the health schema.
+•	Data Import/Loading: The raw health activity data, which includes columns like gender, age, BMI, daily steps, sleep, and heart disease status, was loaded into the MySQL database.
+•	Schema Exploration: Reviewing the table structure to understand the column names (e.g., age, BMI, Daily_Steps) and data types to ensure accurate querying.
+### 2. Formulating and Executing Queries
+•	Question Translation: Each analytical question (e.g., "What is the average age?" or "How many individuals are males and how many are females?" ) was translated into a valid MySQL query.
+•	Basic Aggregation Queries: Using aggregate functions like AVG(), COUNT(), MIN(), and MAX() to find summary statistics.
+•	Grouping and Segmentation: Employing the GROUP BY clause to calculate metrics for specific categories, such as gender , smoking status , or heart disease status.
+•	Conditional Logic and Categorization (CASE statements): Using CASE statements to create new, derived categories, such as grouping individuals into age groups etc.
+•	Data Manipulation: Using functions like TRUNCATE() or ROUND() for presentation purposes to format the results (e.g., rounding the average age to 49).
+•	Filtering and Sorting: Using the WHERE clause to filter data (e.g., WHERE BMI > 25 ) and the order by and limit clauses to identify top records.
+### 3. Result Extraction and Reporting 
+•	Result Capture: Recording the output from the MySQL environment (the "Result Grid") for each query.
+•	Documentation: Presenting the original analytical question, the MySQL query used, and the resulting data grid.
+•	Final Project Compilation: Organizing all the documented analysis into a structured project document (the PDF file) for presentation.
+## Project Insight
+1. The average age of individuals in the dataset is 49.
+2. The average Body Mass Index (BMI) is 26.
+3. The typical individual gets around 6 hours of sleep , and takes approximately 10,717 daily steps.
+4. The dataset contains slightly more males (523) than females (477).
+5. Males, on average, take a higher number of daily steps (10,960) compared to females (10,450)
+6. The vast majority of individuals in the dataset are non-smokers (809), with only 191 individuals reporting as smokers
+7. Non-smokers have a slightly higher percentage of heart disease (9.6415%) compared to smokers (7.8534%). This suggests that other factors beyond smoking may be more dominant in this specific dataset's heart disease rates.
+8. Individuals who do not have heart disease have a slightly higher average heart rate (84.82) than those who do have heart disease (83.68).
+9. The average BMI remains very similar across all activity levels, with Low, Medium, and High activity groups all having an average BMI of approximately 26.78 or 26.69. This suggests that daily steps alone might not be a strong predictor of BMI in this dataset.
+10. Across all analyzed age groups—Young Adults (18-25), Adults (26-64), and Seniors (65+),the average hours of sleep is consistently 6 hours.
+## Final Conclusion
+The project successfully utilized MySQL to analyze the health activity dataset, revealing several key insights into the study population's average metrics and lifestyle correlations.The analysis establishes that the average individual in this dataset is a middle-aged adult (49 years) with a normal to overweight BMI (26) and a moderately active lifestyle, averaging over 10,000 daily steps.Crucially, the project's deeper findings suggest that for this specific population: Heart disease prevalence is counter-intuitively slightly lower among smokers compared to non-smokers, suggesting that other, unexamined risk factors or behaviors may be stronger determinants of heart disease in this sample.
+Physical activity, as measured by daily steps, and hours of sleep show little to no variation across different age groups or activity levels, with all major age groups averaging 6 hours of sleep and BMI remaining constant regardless of categorized activity level. In summary, while the population appears generally active, the lack of strong correlation between key lifestyle factors (steps, sleep) and general health metrics (BMI, heart disease) suggests that a more detailed analysis incorporating diet, genetics, or specific medical conditions is necessary to fully explain the observed health outcomes.
+
+
+
+
+
+
 
