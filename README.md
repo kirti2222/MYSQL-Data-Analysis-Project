@@ -17,9 +17,9 @@ https://github.com/kirti2222/MYSQL-Data-Analysis-Project/blob/main/healthcare_da
 11. Identify the top 10 individuals by ID,Age,Gender with the highest daily steps who also have a BMI greater than 25.
 ## Project Process
 ### 1. Data Understanding and Setup 
-• The project utilizes data called health_activity_data within the health schema.
-• The raw health activity data, which includes columns like gender, age, BMI, daily steps, sleep, and heart disease status, was loaded into the MySQL database.
-• Reviewing the table structure to understand the column names (e.g., age, BMI, Daily_Steps) and data types to ensure accurate querying.
+1.1  The project utilizes data called health_activity_data within the health schema.
+1.2  The raw health activity data, which includes columns like gender, age, BMI, daily steps, sleep, and heart disease status, was loaded into the MySQL database.
+1.3  Reviewing the table structure to understand the column names (e.g., age, BMI, Daily_Steps) and data types to ensure accurate querying.
 ### 2. Formulating and Executing Queries
 •	Question Translation: Each analytical question (e.g., "What is the average age?" or "How many individuals are males and how many are females?" ) was translated into a valid MySQL query  
 •	Basic Aggregation Queries: Using aggregate functions like AVG(), COUNT(), MIN(), and MAX() to find summary statistics.
