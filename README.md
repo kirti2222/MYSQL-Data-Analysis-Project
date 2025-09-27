@@ -20,7 +20,7 @@ https://github.com/kirti2222/MYSQL-Data-Analysis-Project/blob/main/healthcare_da
 •	Data Source Identification: The project utilizes data called health_activity_data within the health schema.
 •	Data Import/Loading: The raw health activity data, which includes columns like gender, age, BMI, daily steps, sleep, and heart disease status, was loaded into the MySQL database.
 •	Schema Exploration: Reviewing the table structure to understand the column names (e.g., age, BMI, Daily_Steps) and data types to ensure accurate querying.
-### 2. Formuklating and Executing Queries
+### 2. Formulating and Executing Queries
 •	Question Translation: Each analytical question (e.g., "What is the average age?" or "How many individuals are males and how many are females?" ) was translated into a valid MySQL query  
 •	Basic Aggregation Queries: Using aggregate functions like AVG(), COUNT(), MIN(), and MAX() to find summary statistics.
 •	Grouping and Segmentation: Employing the GROUP BY clause to calculate metrics for specific categories, such as gender , smoking status , or heart disease status.
