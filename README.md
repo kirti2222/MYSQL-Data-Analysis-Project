@@ -17,20 +17,20 @@ https://github.com/kirti2222/MYSQL-Data-Analysis-Project/blob/main/healthcare_da
 11. Identify the top 10 individuals by ID,Age,Gender with the highest daily steps who also have a BMI greater than 25.
 ## Project Process
 ### 1. Data Understanding and Setup 
-•	Data Source Identification: The project utilizes data called health_activity_data within the health schema.
-•	Data Import/Loading: The raw health activity data, which includes columns like gender, age, BMI, daily steps, sleep, and heart disease status, was loaded into the MySQL database.
-•	Schema Exploration: Reviewing the table structure to understand the column names (e.g., age, BMI, Daily_Steps) and data types to ensure accurate querying.
+1.1	Data Source Identification: The project utilizes data called health_activity_data within the health schema.
+1.2	Data Import/Loading: The raw health activity data, which includes columns like gender, age, BMI, daily steps, sleep, and heart disease status, was loaded into the MySQL database.
+1.3	Schema Exploration: Reviewing the table structure to understand the column names (e.g., age, BMI, Daily_Steps) and data types to ensure accurate querying.
 ### 2. Formulating and Executing Queries
-•	Question Translation: Each analytical question (e.g., "What is the average age?" or "How many individuals are males and how many are females?" ) was translated into a valid MySQL query  
-•	Basic Aggregation Queries: Using aggregate functions like AVG(), COUNT(), MIN(), and MAX() to find summary statistics.
-•	Grouping and Segmentation: Employing the GROUP BY clause to calculate metrics for specific categories, such as gender , smoking status , or heart disease status.
-•	Conditional Logic and Categorization (CASE statements): Using CASE statements to create new, derived categories, such as grouping individuals into age groups etc.
-•	Data Manipulation: Using functions like TRUNCATE() or ROUND() for presentation purposes to format the results (e.g., rounding the average age to 49).
-•	Filtering and Sorting: Using the WHERE clause to filter data (e.g., WHERE BMI > 25 ) and the order by and limit clauses to identify top records.
+2.1	Question Translation: Each analytical question (e.g., "What is the average age?" or "How many individuals are males and how many are females?" ) was translated into a valid MySQL query  
+2.2 Basic Aggregation Queries: Using aggregate functions like AVG(), COUNT(), MIN(), and MAX() to find summary statistics.
+2.3	Grouping and Segmentation: Employing the GROUP BY clause to calculate metrics for specific categories, such as gender , smoking status , or heart disease status.
+2.4	Conditional Logic and Categorization (CASE statements): Using CASE statements to create new, derived categories, such as grouping individuals into age groups etc.
+2.5 Data Manipulation: Using functions like TRUNCATE() or ROUND() for presentation purposes to format the results (e.g., rounding the average age to 49).
+2.6	Filtering and Sorting: Using the WHERE clause to filter data (e.g., WHERE BMI > 25 ) and the order by and limit clauses to identify top records.
 ### 3. Result Extraction and Reporting 
-•	Result Capture: Recording the output from the MySQL environment (the "Result Grid") for each query.
-•	Documentation: Presenting the original analytical question, the MySQL query used, and the resulting data grid.
-•	Final Project Compilation: Organizing all the documented analysis into a structured project document (the PDF file) for presentation.
+3.1	Result Capture: Recording the output from the MySQL environment (the "Result Grid") for each query.
+3.2	Documentation: Presenting the original analytical question, the MySQL query used, and the resulting data grid.
+3.3	Final Project Compilation: Organizing all the documented analysis into a structured project document (the PDF file) for presentation.
 ## Project Insight
 1. The average age of individuals in the dataset is 49.
 2. The average Body Mass Index (BMI) is 26.
