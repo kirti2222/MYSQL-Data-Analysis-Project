@@ -15,6 +15,7 @@ https://github.com/kirti2222/MYSQL-Data-Analysis-Project/blob/main/healthcare_da
 9. Calculate the average heart rate of individuals who have heart disease and those who do not have.
 10. Determine the percentage of smokers who have heart disease and non-smokers who have heart disease.
 11. Identify the top 10 individuals by ID,Age,Gender with the highest daily steps who also have a BMI greater than 25.
+## Project Process
 ## Project Insight
 1. The average age of individuals in the dataset is 49.
 2. The average Body Mass Index (BMI) is 26.
