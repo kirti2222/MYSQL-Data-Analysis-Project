@@ -16,6 +16,14 @@ https://github.com/kirti2222/MYSQL-Data-Analysis-Project/blob/main/healthcare_da
 10. Determine the percentage of smokers who have heart disease and non-smokers who have heart disease.
 11. Identify the top 10 individuals by ID,Age,Gender with the highest daily steps who also have a BMI greater than 25.
 ## Project Process
+1. Every Data Analysis Question was translated into valid SQL queries. For Example: How many individuals are males and females?
+2. Aggregate functions like avg, min, max were used to calculate summary statistics.
+3. Group By Query was used to calculte metrics for specific groups such as gender, smoking status or heart disease.
+4. Case statement was used to find out derived categories such as grouping indivisuals into age groups.
+5. Functions such as truncate or round was used for presntation purposes to format the results such as average age to 49.
+6. Where clause was uset to filter the data. For example: where BMI>25and the order by and limit clause to identify top records.
+7. The output of records were recorded from the MYSQL environmemt (Result Grid) for each query.
+8. The documnetation of the original analytical questions, the MYSQL query used and the reult grid were documented, organized into a structured project document format (PDF) for presentation.
 ## Project Insight
 1. The average age of individuals in the dataset is 49.
 2. The average Body Mass Index (BMI) is 26.
